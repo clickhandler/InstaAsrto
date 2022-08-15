@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/Lovecalculator.css" />
+
+    <title>Love Calculator | Insta Astro Astrology</title>
+  </head>
+
+  <body>
+    <div id="ContentBox">
+      <div id="TopHeading">
+        <h2>Free Love Calculator</h2>
+        <p>
+          Enter your details and Find out your Love compatibility with your
+          partner.
+        </p>
+      </div>
+      <div id="wrapper">
+        <div class="hero">
+          <div>
+            <label>Your name*</label>
+          </div>
+          <input
+            type="text"
+            name=""
+            id="InputBox"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <!-- Gender -->
+
+        <div class="hero">
+          <div>
+            <label>Your gender*</label>
+          </div>
+          <div class="selector">
+            <div id="selectfieldG">
+              <p id="selecttextG">Select Your Gender</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="listG" class="hide">
+              <li class="optionG">Select Your Gender</li>
+              <li class="optionG">Male</li>
+              <li class="optionG">Female</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Gender -->
+
+        <!-----------Date----------->
+        <div class="hero">
+          <div>
+            <label>Your DOB*</label>
+          </div>
+          <div class="selector">
+            <div id="selectfield">
+              <p id="selecttext">Date</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="list" class="hide">
+              <li class="option">Select Date</li>
+              <li class="option">01</li>
+              <li class="option">02</li>
+              <li class="option">03</li>
+              <li class="option">04</li>
+              <li class="option">05</li>
+              <li class="option">06</li>
+              <li class="option">07</li>
+              <li class="option">08</li>
+              <li class="option">09</li>
+              <li class="option">10</li>
+              <li class="option">11</li>
+              <li class="option">12</li>
+              <li class="option">13</li>
+              <li class="option">14</li>
+              <li class="option">15</li>
+              <li class="option">16</li>
+              <li class="option">17</li>
+              <li class="option">18</li>
+              <li class="option">19</li>
+              <li class="option">20</li>
+              <li class="option">21</li>
+              <li class="option">22</li>
+              <li class="option">23</li>
+              <li class="option">24</li>
+              <li class="option">25</li>
+              <li class="option">26</li>
+              <li class="option">27</li>
+              <li class="option">28</li>
+              <li class="option">29</li>
+              <li class="option">30</li>
+              <li class="option">31</li>
+            </ul>
+          </div>
+        </div>
+        <!-----------Date----------->
+        <!-- Month -->
+        <div class="hero">
+          <div class="selector">
+            <div id="selectfield1">
+              <p id="selecttext1">month</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="list1" class="hide">
+              <li class="option1">Select Month</li>
+              <li class="option1">01</li>
+              <li class="option1">02</li>
+              <li class="option1">03</li>
+              <li class="option1">04</li>
+              <li class="option1">05</li>
+              <li class="option1">06</li>
+              <li class="option1">07</li>
+              <li class="option1">08</li>
+              <li class="option1">09</li>
+              <li class="option1">10</li>
+              <li class="option1">11</li>
+              <li class="option1">12</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Month End -->
+
+        <!-- Year -->
+        <div class="hero">
+          <div class="selector">
+            <div id="selectfieldY">
+              <p id="selecttextY">Year</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="listY" class="hide">
+              <li class="optionY">Select Year</li>
+              <li class="optionY">1940</li>
+
+              <li class="optionY">1941</li>
+
+              <li class="optionY">1942</li>
+
+              <li class="optionY">1943</li>
+
+              <li class="optionY">1944</li>
+
+              <li class="optionY">1945</li>
+
+              <li class="optionY">1946</li>
+
+              <li class="optionY">1947</li>
+
+              <li class="optionY">1948</li>
+
+              <li class="optionY">1949</li>
+
+              <li class="optionY">1950</li>
+
+              <li class="optionY">1951</li>
+
+              <li class="optionY">1952</li>
+
+              <li class="optionY">1953</li>
+
+              <li class="optionY">1954</li>
+
+              <li class="optionY">1955</li>
+
+              <li class="optionY">1956</li>
+
+              <li class="optionY">1957</li>
+
+              <li class="optionY">1958</li>
+
+              <li class="optionY">1959</li>
+
+              <li class="optionY">1960</li>
+
+              <li class="optionY">1961</li>
+
+              <li class="optionY">1962</li>
+
+              <li class="optionY">1963</li>
+
+              <li class="optionY">1964</li>
+
+              <li class="optionY">1965</li>
+
+              <li class="optionY">1966</li>
+
+              <li class="optionY">1967</li>
+
+              <li class="optionY">1968</li>
+
+              <li class="optionY">1969</li>
+
+              <li class="optionY">1970</li>
+
+              <li class="optionY">1971</li>
+
+              <li class="optionY">1972</li>
+
+              <li class="optionY">1973</li>
+
+              <li class="optionY">1974</li>
+
+              <li class="optionY">1975</li>
+
+              <li class="optionY">1976</li>
+
+              <li class="optionY">1977</li>
+
+              <li class="optionY">1978</li>
+
+              <li class="optionY">1979</li>
+
+              <li class="optionY">1980</li>
+
+              <li class="optionY">1981</li>
+
+              <li class="optionY">1982</li>
+
+              <li class="optionY">1983</li>
+
+              <li class="optionY">1984</li>
+
+              <li class="optionY">1985</li>
+
+              <li class="optionY">1986</li>
+
+              <li class="optionY">1987</li>
+
+              <li class="optionY">1988</li>
+
+              <li class="optionY">1989</li>
+
+              <li class="optionY">1990</li>
+
+              <li class="optionY">1991</li>
+
+              <li class="optionY">1992</li>
+
+              <li class="optionY">1993</li>
+
+              <li class="optionY">1994</li>
+
+              <li class="optionY">1995</li>
+
+              <li class="optionY">1996</li>
+
+              <li class="optionY">1997</li>
+
+              <li class="optionY">1998</li>
+
+              <li class="optionY">1999</li>
+
+              <li class="optionY">2000</li>
+
+              <li class="optionY">2001</li>
+
+              <li class="optionY">2002</li>
+
+              <li class="optionY">2003</li>
+
+              <li class="optionY">2004</li>
+
+              <li class="optionY">2005</li>
+
+              <li class="optionY">2006</li>
+
+              <li class="optionY">2007</li>
+
+              <li class="optionY">2008</li>
+
+              <li class="optionY">2009</li>
+
+              <li class="optionY">2010</li>
+
+              <li class="optionY">2011</li>
+
+              <li class="optionY">2012</li>
+
+              <li class="optionY">2013</li>
+
+              <li class="optionY">2014</li>
+
+              <li class="optionY">2015</li>
+
+              <li class="optionY">2016</li>
+
+              <li class="optionY">2017</li>
+
+              <li class="optionY">2018</li>
+
+              <li class="optionY">2019</li>
+
+              <li class="optionY">2020</li>
+
+              <li class="optionY">2021</li>
+
+              <li class="optionY">2022</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Year -->
+      </div>
+
+      <!-- Partner Div -->
+
+      <!-- 000000000000 -->
+
+      <div id="wrapper">
+        <div class="hero">
+          <div>
+            <label>Partner name*</label>
+          </div>
+          <input
+            type="text"
+            name=""
+            id="InputBox"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <!-- Gender -->
+
+        <div class="hero">
+          <div>
+            <label>Partner gender*</label>
+          </div>
+          <div class="selector">
+            <div id="selectfieldG">
+              <p id="selecttextG">Select Your Gender</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="listG" class="hide">
+              <li class="optionG">Select Your Gender</li>
+              <li class="optionG">Male</li>
+              <li class="optionG">Female</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Gender -->
+
+        <!-----------Date----------->
+        <div class="hero">
+          <div>
+            <label>Partner DOB*</label>
+          </div>
+          <div class="selector">
+            <div id="selectfield">
+              <p id="selecttext">Date</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="list" class="hide">
+              <li class="option">Select Date</li>
+              <li class="option">01</li>
+              <li class="option">02</li>
+              <li class="option">03</li>
+              <li class="option">04</li>
+              <li class="option">05</li>
+              <li class="option">06</li>
+              <li class="option">07</li>
+              <li class="option">08</li>
+              <li class="option">09</li>
+              <li class="option">10</li>
+              <li class="option">11</li>
+              <li class="option">12</li>
+              <li class="option">13</li>
+              <li class="option">14</li>
+              <li class="option">15</li>
+              <li class="option">16</li>
+              <li class="option">17</li>
+              <li class="option">18</li>
+              <li class="option">19</li>
+              <li class="option">20</li>
+              <li class="option">21</li>
+              <li class="option">22</li>
+              <li class="option">23</li>
+              <li class="option">24</li>
+              <li class="option">25</li>
+              <li class="option">26</li>
+              <li class="option">27</li>
+              <li class="option">28</li>
+              <li class="option">29</li>
+              <li class="option">30</li>
+              <li class="option">31</li>
+            </ul>
+          </div>
+        </div>
+        <!-----------Date----------->
+        <!-- Month -->
+        <div class="hero">
+          <div class="selector">
+            <div id="selectfield1">
+              <p id="selecttext1">month</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="list1" class="hide">
+              <li class="option1">Select Month</li>
+              <li class="option1">01</li>
+              <li class="option1">02</li>
+              <li class="option1">03</li>
+              <li class="option1">04</li>
+              <li class="option1">05</li>
+              <li class="option1">06</li>
+              <li class="option1">07</li>
+              <li class="option1">08</li>
+              <li class="option1">09</li>
+              <li class="option1">10</li>
+              <li class="option1">11</li>
+              <li class="option1">12</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Month End -->
+
+        <!-- Year -->
+        <div class="hero">
+          <div class="selector">
+            <div id="selectfieldY">
+              <p id="selecttextY">Year</p>
+              <img src="./image/downArrow.png" id="arrow" />
+            </div>
+            <ul id="listY" class="hide">
+              <li class="optionY">Select Year</li>
+              <li class="optionY">1940</li>
+
+              <li class="optionY">1941</li>
+
+              <li class="optionY">1942</li>
+
+              <li class="optionY">1943</li>
+
+              <li class="optionY">1944</li>
+
+              <li class="optionY">1945</li>
+
+              <li class="optionY">1946</li>
+
+              <li class="optionY">1947</li>
+
+              <li class="optionY">1948</li>
+
+              <li class="optionY">1949</li>
+
+              <li class="optionY">1950</li>
+
+              <li class="optionY">1951</li>
+
+              <li class="optionY">1952</li>
+
+              <li class="optionY">1953</li>
+
+              <li class="optionY">1954</li>
+
+              <li class="optionY">1955</li>
+
+              <li class="optionY">1956</li>
+
+              <li class="optionY">1957</li>
+
+              <li class="optionY">1958</li>
+
+              <li class="optionY">1959</li>
+
+              <li class="optionY">1960</li>
+
+              <li class="optionY">1961</li>
+
+              <li class="optionY">1962</li>
+
+              <li class="optionY">1963</li>
+
+              <li class="optionY">1964</li>
+
+              <li class="optionY">1965</li>
+
+              <li class="optionY">1966</li>
+
+              <li class="optionY">1967</li>
+
+              <li class="optionY">1968</li>
+
+              <li class="optionY">1969</li>
+
+              <li class="optionY">1970</li>
+
+              <li class="optionY">1971</li>
+
+              <li class="optionY">1972</li>
+
+              <li class="optionY">1973</li>
+
+              <li class="optionY">1974</li>
+
+              <li class="optionY">1975</li>
+
+              <li class="optionY">1976</li>
+
+              <li class="optionY">1977</li>
+
+              <li class="optionY">1978</li>
+
+              <li class="optionY">1979</li>
+
+              <li class="optionY">1980</li>
+
+              <li class="optionY">1981</li>
+
+              <li class="optionY">1982</li>
+
+              <li class="optionY">1983</li>
+
+              <li class="optionY">1984</li>
+
+              <li class="optionY">1985</li>
+
+              <li class="optionY">1986</li>
+
+              <li class="optionY">1987</li>
+
+              <li class="optionY">1988</li>
+
+              <li class="optionY">1989</li>
+
+              <li class="optionY">1990</li>
+
+              <li class="optionY">1991</li>
+
+              <li class="optionY">1992</li>
+
+              <li class="optionY">1993</li>
+
+              <li class="optionY">1994</li>
+
+              <li class="optionY">1995</li>
+
+              <li class="optionY">1996</li>
+
+              <li class="optionY">1997</li>
+
+              <li class="optionY">1998</li>
+
+              <li class="optionY">1999</li>
+
+              <li class="optionY">2000</li>
+
+              <li class="optionY">2001</li>
+
+              <li class="optionY">2002</li>
+
+              <li class="optionY">2003</li>
+
+              <li class="optionY">2004</li>
+
+              <li class="optionY">2005</li>
+
+              <li class="optionY">2006</li>
+
+              <li class="optionY">2007</li>
+
+              <li class="optionY">2008</li>
+
+              <li class="optionY">2009</li>
+
+              <li class="optionY">2010</li>
+
+              <li class="optionY">2011</li>
+
+              <li class="optionY">2012</li>
+
+              <li class="optionY">2013</li>
+
+              <li class="optionY">2014</li>
+
+              <li class="optionY">2015</li>
+
+              <li class="optionY">2016</li>
+
+              <li class="optionY">2017</li>
+
+              <li class="optionY">2018</li>
+
+              <li class="optionY">2019</li>
+
+              <li class="optionY">2020</li>
+
+              <li class="optionY">2021</li>
+
+              <li class="optionY">2022</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Year -->
+      </div>
+<div class="Bottom">
+
+      <div >
+          <span>How much do you love him or her on a scale from 1 to 100:*</span>
+      </div>
+
+      <div class="input"">
+          <input required type="text" placeholder="Type Here">
+      </div>
+
+    </div>
+
+
+    <div class="Bottom">
+
+        <div >
+            <span>How much do you think he or she loves you on a scale from 1 to 100:*</span>
+        </div>
+  
+        <div class="input" >
+            <input required type="text" placeholder="Type Here">
+        </div>
+  
+      </div>
+
+      <div class="Btn">
+        <button onclick="popFun()">GET CALCULATED</button>
+    </div>
+
+
+      <div class="popup" id="popup-1">
+  <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/icons/love-calculator-modal-image.png" alt="">
+              <p id="pTag">The Result of Your Love is Lies in Number.The Percentage is: <img width="50px"  height="50px" src="./image/pngfind.com-heart-png-tumblr-380997.png" alt=""></p>
+          </div>
+          <div class="Btn">
+            <button onclick="popFun1()">CHECK AGAIN</button>
+        </div>
+  <h1 id="text"></h1>
+  </body>
+</html>
+<script src="./Script/index.js"></script>
